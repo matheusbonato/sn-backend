@@ -1,0 +1,21 @@
+GET http://localhost:3333/listar
+
+###
+
+POST http://localhost:3333/cadastrar
+Content-type: application/json
+
+{
+  "desc":"Arroz",
+  "amount":"12.00",
+  "type":"Entrada"
+}
+
+###
+
+DELETE http://localhost:3333/excluir
+Content-Type: application/json
+
+{
+  "id": "63a1266771d538001c73ce1e"
+}
